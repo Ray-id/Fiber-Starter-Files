@@ -1,0 +1,250 @@
+header{
+    background-color: var(--bg-color-1);
+    padding: 2% 10%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo{
+    cursor: pointer;
+}
+
+.nav__logo h3{
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid var(--text-color-2);
+}
+.nav__buttons{
+    display: flex;
+    align-items: center;
+}
+.nav__buttons__a{
+    cursor: pointer;
+}
+.nav__buttons__b{
+    padding: 15px 20px;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 300ms;
+
+}
+.nav__buttons__b:hover{
+    transform: scale(1.1);
+
+}
+.nav__buttons__a h4{
+    transition: 300ms;
+
+}
+.nav__buttons__a h4:hover{
+    transform: scale(1.1);
+}
+.nav__buttons__b h4{
+    color: var(--bg-color-2);
+    
+}
+.hamburger{
+    display: none;
+}
+
+.hero-section{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+.hero-section__left{
+    width: 50%;
+}
+.hero-section__rating{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+.hero-section__stars{
+    margin-right: 12px;
+}
+.hero-section__rating h5{
+    font-weight: 500;
+}
+.hero-section h1{
+    margin-bottom: 0.5rem;
+}
+.hero-section p{
+    margin-bottom: 1rem;
+    color: var(--text-color-2);
+}
+.hero-section__buttons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.hero-section__buttons__a{
+    padding: 15px 20px;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    width: fit-content;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.hero-section__buttons__a:hover{
+    transform: scale(1.1);
+}
+.hero-section__buttons__b{
+   
+}
+.hero-section__buttons__a h4{
+    color: var(--bg-color-2);
+}
+.hero-section__buttons__b h4{
+    color: var(--button-color);
+    cursor: pointer;
+    transition: 300ms;
+    border-bottom: 2px solid var(--button-color);
+
+}
+.hero-section__buttons__b h4:hover{
+    transform: scale(1.1);
+}
+.hero-section__fetures{
+    display: flex;
+}
+.hero-section__fetures p{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.hero-section__fetures p img{
+    margin-right: 6px;
+}
+.hero-section__right{
+ width: 50%;
+}
+.hero-section__right img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.hamburger-menu{
+    padding: 20px 0;
+    display: none;
+}
+.hamburger-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.hamburger-menu ul li{
+    list-style: none;
+    margin: 0 16px;
+}
+
+.hamburger-menu ul li a{
+    text-decoration: none;
+}
+.hamburger-menu ul li a:hover{
+    border-bottom: 2px solid var(--text-color-2);
+}
+
+.hamburger-menu hr{
+    margin: 15px auto;
+    width: 80%;
+}
+.hamburger-menu__buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hamburger-menu__a{
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hamburger-menu__b{
+    padding: 15px 20px;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.hamburger-menu__b:hover{
+    transform: scale(1.1);
+}
+.hamburger-menu__a h4{
+    transition: 300ms;
+    text-align: center;
+}
+.hamburger-menu__a h4:hover{
+    transform: scale(1.1);
+}
+.hamburger-menu__b h4{
+    color: var(--bg-color-2);
+    
+}
+
+
+
+@media screen and (min-width:1440px){
+    nav ul li{
+        margin: 0 25px;
+    }
+}
+@media  screen and (max-width: 1024px) {
+    .hero-section{
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .hero-section__left{
+        width: auto;
+    }
+    .hero-section__right{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width:768px){
+    nav ul li {
+        margin: 0 10px;
+}  
+    }
+@media  screen and (max-width: 425px) {
+    header{
+        padding: 5%;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav__buttons{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hero-section{
+        padding: 0;
+        margin-top: 0;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiber Landing Page</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/header.css">
+    <link rel="stylesheet" href="./Style/main.css">
+    <link rel="stylesheet" href="./Style/section-a.css">
+    <link rel="stylesheet" href="./Style/section-b.css">
+    <link rel="stylesheet" href="./Style/testimonials.css">
+    <link rel="stylesheet" href="./Style/footer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav__logo">
+                <h3>Fiber</h3>
+            </div>
+            <ul>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Features</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <div class="nav__buttons__a">
+                    <h4>Sign In</h4>
+                </div>
+                <div class="nav__buttons__b">
+                    <h4>Sign Up</h4>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger" onclick="handleClick()"><img src="./Assets/Hamburger Menu.svg" alt="">
+            </div>
+        </nav>
+        <div class="hamburger-menu" id="hamburger-menu">
+            <ul>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Features</a></li>
+            </ul>
+            <hr>
+            <div class="hamburger-menu__buttons">
+                <div class="hamburger-menu__a">
+                    <h4>Sign In</h4>
+                </div>
+                <div class="hamburger-menu__b">
+                    <h4>Sign Up</h4>
+                </div>
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="hero-section__left">
+                <div class="hero-section__rating">
+                    <div class="hero-section__stars">
+                        <img src="./Assets/star.svg" alt="star">
+                        <img src="./Assets/star.svg" alt="star">
+                        <img src="./Assets/star.svg" alt="star">
+                        <img src="./Assets/star.svg" alt="star">
+                        <img src="./Assets/star.svg" alt="star">
+                    </div>
+                    <h5>Rated 4.8/5 (243 reviews)</h5>
+                </div>
+                <h1>Create your portfolio in minutes.</h1>
+                <p>With Fiber, you can setup yout own personal portfolio in minutes with dozens of premade, beautiful
+                    templates</p>
+                <div class="hero-section__buttons">
+                    <div class="hero-section__buttons__a">
+                        <h4>Start Free Trail</h4>
+                    </div>
+                    <div class="hero-section__buttons__b">
+                        <h4>View Examples</h4>
+                    </div>
+                </div>
+                <div class="hero-section__fetures">
+                    <p><img src="./Assets/Checkmark.svg" alt="Checkmark"> No Credit Card Required</p>
+                    <p><img src="./Assets/Checkmark.svg" alt="Checkmark"> 10 Free Templates</p>
+                </div>
+            </div>
+            <div class="hero-section__right"><img src="./Assets/hero-Illustration.png" alt="img"></div>
+        </div>
+    </header>
+    <main>
+        <section class="section-a">
+            <h4>Why Fiber?</h4>
+            <h2>A good portfolio means good
+                <br> employablity.
+            </h2>
+            <div class="section-a__boxes">
+                <div class="box">
+                    <img src="./Assets/time.svg" alt="time">
+                    <h5>Build in minutes</h5>
+                    <p>With a selection of premade templates, you can build out a portfolio in less than 10 minutes.</p>
+                </div>
+                <div class="box">
+                    <img src="./Assets/code.svg" alt="code">
+                    <h5>Add custom CSS</h5>
+                    <p>Customize your personal portfolio enen more with ability to add your own custom CSS styles.</p>
+                </div>
+                <div class="box">
+                    <img src="./Assets/allSizes.svg" alt="all sizes">
+                    <h5>Responsive</h5>
+                    <p>All Fiber templates are fully responsive to ensure the experience is seemless across all devices.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-b">
+            <div class="section-b__left">
+                <h2>Diversify your portflio.</h2>
+                <p>Createing an even more impressiver portfolio by creating case studies for your projects. Simply
+                    follow our step-by-step guide</p>
+                <div class="section-b__button">
+                    <h4>Start Free Trial</h4>
+                </div>
+            </div>
+            <div class="section-b__right">
+                <img src="./Assets/Page Image.png" alt="avatar">
+            </div>
+        </section>
+
+
+
+        <section class="testimonials">
+            <div class="testimonial">
+                <div class="testimonial__header">
+                    <div class="testimonial__avatar">
+                        <img src="./Assets/User Avatar.svg" alt="avatar">
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>Sarah Andrews</h5>
+                        <h6>$100k in revenue</h6>
+                    </div>
+                </div>
+                <div class="testimonial__text">
+                    <p>Setting up my portfolio with Fiber took no
+                        more than 10 minutes. Since then, my
+                        portfolio has attracted a lot of clients and
+                        made me more than $100k.
+                    </p>
+                </div>
+                <div class="testimonial__button">
+                    <h4>View Sarah's Portfolio</h4>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial__header">
+                    <div class="testimonial__avatar">
+                        <img src="./Assets/User Avatar 2.svg" alt="avatar">
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>Mathew Higgins
+                        </h5>
+                        <h6>$20k in revenue
+                        </h6>
+                    </div>
+                </div>
+                <div class="testimonial__text">
+                    <p>I have been getting A LOT of leads ever
+                        since I used Fiber's premade templates,
+                        now I just need to work on my case studies
+                        and 'l be ready to go!</p>
+                </div>
+                <div class="testimonial__button">
+                    <h4>View Mathew's Portfolio</h4>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial__header">
+                    <div class="testimonial__avatar">
+                        <img src="./Assets/User Avatar 32.svg" alt="avatar">
+                    </div>
+                    <div class="testimonial__info">
+                        <h5>Janice Dave
+                        </h5>
+                        <h6>$30k in revenue
+                        </h6>
+                    </div>
+                </div>
+                <div class="testimonial__text">
+                    <p>I only just started freelancing this
+                        year and I have already made
+                        more thanl ever made in my
+                        full-time job. The templates are
+                        just so amazing.</p>
+                </div>
+                <div class="testimonial__button">
+                    <h4>View Janice's Portfolio</h4>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__fiber footer__content">
+                <h3>Fiber</h3>
+                <p>With Fiber, you can setup your own personal
+                    portfolio in minutes with dozens of premade,
+                    beautiful templates.
+                </p>
+                <p>Made within the Netherlands.</p>
+            </div>
+            <div class="footer__sitemap footer__content">
+                <h3>Sitemap</h3>
+                <p>Homepage</p>
+                <p>Pricing</p>
+                <p>Testimonials</p>
+                <p>Features</p>
+            </div>
+            <div class="footer__resources footer__content">
+                <h3>Resources</h3>
+                <p>Support</p>
+                <p>Contact</p>
+                <p>FAQ</p>
+            </div>
+            <div class="footer__company footer__content">
+                <h3>Company</h3>
+                <p>About</p>
+                <p>Customers</p>
+                <p>Blog</p>
+            </div>
+            <div class="footer__portfolios footer__content">
+                <h3>Portfolios</h3>
+                <p>Sarah Andrews</p>
+                <p>Mathew Higgins</p>
+                <p>Janice Dave</p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

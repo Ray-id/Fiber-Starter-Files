@@ -1,0 +1,38 @@
+.section-a{
+    margin-bottom: 5%;
+}
+.section-a h4{
+    color: var(--button-color);
+    margin-bottom: 0.5rem;
+    text-align: start;
+}
+.section-a h2{
+    margin-bottom: 2rem;
+}
+.section-a__boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.section-a .box{
+    
+}
+.section-a .box img{
+    margin-bottom: 0.5rem;
+}
+.section-a .box h5{
+    margin-bottom: 1rem;
+}
+.section-a .box p{
+    color: var(--text-color-2);
+}
+
+
+@media screen and (max-width: 768px){
+    .section-a__boxes{
+        flex-direction: column;
+    }
+    .section-a .box{
+        margin-bottom: 30px;
+    }
+}
